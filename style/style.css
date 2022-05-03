@@ -1,0 +1,39 @@
+body{
+
+}
+*{
+    border : 1px solid rgb(187, 180, 180)
+}
+#header{
+ display:grid;
+ grid-template-rows: 80% auto;
+ text-align: center;
+}
+
+#navigation{
+    font-size: .9rem;
+}
+#hero-image{
+    
+    height : 300px;
+    background-color: rgb(176, 39, 39);
+
+}
+
+#content{
+    height: 100px;
+    background-color: blueviolet;
+    
+
+}
+#Article{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    height: 100px;
+    margin: 0 auto;
+    width: 80%;
+    background-color: blue;
+    
+
+   
+}
